@@ -1,0 +1,60 @@
+/*html{
+margin: 0;
+padding: 0;
+}*/
+.beta{
+    border: 1px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+}
+.uno{
+    flex-direction: row;
+    border: 1px solid red;
+    width: 100%;
+    }
+    .uno img{
+        display: block;
+        width: 120px;
+        height: 120px;
+    }
+    .one{
+        border: 1px solid white;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+         }
+    .about{
+        border: 1px solid silver;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.two{
+    border: 1px solid gray;
+    width: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+.three{
+    border: 1px solid gold;
+    width: 100%;
+    flex-grow: 1;
+    align-items: center
+}
+.four{
+    border: 1px solid blue;
+    width: 100%;
+    flex-direction: row;
+}
+#pro, #personal{
+    border: 1px solid yellow;
+    flex-grow: 1;
+    width: 50%;
+}
+form.contact{
+    width: 100%;
+    flex-grow: 1;
+    border: 1px solid purple;
+    align-items: center;
+}
